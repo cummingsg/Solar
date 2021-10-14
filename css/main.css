@@ -22,4 +22,25 @@ img {
   height: auto;
 }
 
+body {
+  background-color: #070724;
+  border-color: #38384F;
+}
+
+h1, h2, h3 {
+  color: #ffffffff;
+}
+
+p, li, button {
+  color: #838391;
+}
+
+p a {
+  color: #38384F;
+}
+
+button:hover {
+  background-color: #2D68F0;
+}
+
 /*# sourceMappingURL=main.css.map */

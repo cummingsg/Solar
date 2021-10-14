@@ -12,3 +12,31 @@ $light-rust: #d83A34;
 $orange: #CD5120;
 $sea-green: #1EC2A4;
 $blue: #2D68F0;
+
+//Text and Border Colors
+body {
+    background-color: $background;
+    border-color: $dark-grey;
+    //background image set in HTML inline
+}
+
+h1, h2, h3 {
+    color: $white;
+}
+
+p, li, button {
+    color: $light-grey;
+}
+
+p {
+  a {
+      color: $dark-grey;
+  }
+}
+
+//basic button colors
+
+button:hover {
+    background-color: $blue;
+}
+
