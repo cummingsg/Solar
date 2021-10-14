@@ -1,0 +1,47 @@
+//Font imports
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Spartan:wght@400;700&display=swap');
+
+//Font-stack variables
+$primary: 'Antonio' , serif;
+$secondary: 'Spartan' , serif;
+
+//Font-Stack Assignments
+
+h1 {
+    font-family: $primary;
+    font-weight: 500;
+    font-size: 5rem ;
+    line-height: 6.4rem;
+}
+
+h2 {
+    font-family: $primary;
+    font-weight: 500;
+    font-size: 2.5rem ;
+    line-height: 3.2rem;
+    letter-spacing: -0.09rem;
+}
+
+h3 {
+    font-family: $secondary;
+    font-weight: 700;
+    font-size: 0.68rem ;
+    line-height: 1.56rem;
+    letter-spacing: 0.1625rem;
+}
+
+h4 {
+    font-family: $secondary;
+    font-weight: 700;
+    font-size: 0.75rem ;
+    line-height: 1.56rem;
+    letter-spacing: 0.063rem;
+}
+
+body {
+    font-family: $secondary;
+    font-weight: 400;
+    font-size: 0.87rem;
+    line-height: 1.56rem;
+    letter-spacing: 0.063rem;
+}
