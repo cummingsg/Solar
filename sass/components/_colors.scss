@@ -36,6 +36,10 @@ p {
 
 //basic button colors
 
+button {
+    background: none;
+}
+
 button:hover {
     background-color: $blue;
 }

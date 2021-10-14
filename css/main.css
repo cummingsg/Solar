@@ -39,6 +39,10 @@ p a {
   color: #38384F;
 }
 
+button {
+  background: none;
+}
+
 button:hover {
   background-color: #2D68F0;
 }
