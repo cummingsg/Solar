@@ -15,6 +15,8 @@ const outline = document.getElementById('outline');
 const interior = document.getElementById('interior');
 const geology = document.getElementById('geology');
 
+
+/* refactor these three functions into a singular resusable one. Look for more resources on refactoring theory*/
 function toggleOverview() {
     
     let displaySetting = overview.style.display;
