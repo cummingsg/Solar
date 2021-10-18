@@ -29,6 +29,8 @@ img {
 
 body {
   display: flex;
+  width: 1440px;
+  height: 1024px;
 }
 
 nav {
@@ -68,6 +70,12 @@ nav ul {
 .planetframes img {
   width: 290px;
   height: 290px;
+}
+.planetframes #surface {
+  z-index: 2;
+  height: 199px;
+  width: 163px;
+  margin-left: 30px;
 }
 
 .content-card {
