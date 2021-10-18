@@ -75,8 +75,10 @@ nav ul {
 }
 
 .planetframes {
+  width: 900px;
   margin-top: 20.5rem;
   margin-left: 20.9rem;
+  margin-right: 20.9px;
 }
 .planetframes img {
   width: 290px;
@@ -95,7 +97,7 @@ nav ul {
   justify-content: space-around;
   width: 393px;
   height: 551px;
-  margin-left: 284px;
+  margin-left: 100px;
   margin-top: 142px;
   margin-right: 138px;
 }

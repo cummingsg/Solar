@@ -1,8 +1,8 @@
 //Universal Rules
 * {
     box-sizing: border-box;
-  
-   
+
+
 }
 
 body {
@@ -19,14 +19,14 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+
     h2 {
         align-self: flex-start;
         justify-content: center;
         margin-left: 1.1rem;
         margin-top: 1.06rem;
     }
-    
+
     ul {
         display: flex;
         flex-direction: row;
@@ -44,6 +44,7 @@ nav {
 .main-container {
     width: 100%;
 }
+
 .main-content {
     display: flex;
     flex-direction: row;
@@ -51,10 +52,12 @@ nav {
 }
 
 .planetframes {
+    width: 900px;
     margin-top: 20.5rem;
     margin-left: 20.9rem;
+    margin-right: 20.9px;
 
-    img{
+    img {
         width: 290px;
         height: 290px;
     }
@@ -65,7 +68,7 @@ nav {
         width: 163px;
 
         margin-left: 30px;
-        
+
     }
 }
 
@@ -76,10 +79,10 @@ nav {
 
     width: 393px;
     height: 551px;
-    margin-left: 284px;
+    margin-left: 100px;
     margin-top: 142px;
-    margin-right: 138px ;
-} 
+    margin-right: 138px;
+}
 
 .fact-card-container {
     display: flex;
@@ -87,7 +90,7 @@ nav {
     justify-content: space-around;
     margin-top: 87px;
     margin-right: 120px;
-    margin-left: 165px ;
+    margin-left: 165px;
 
     .fcard {
         display: flex;
