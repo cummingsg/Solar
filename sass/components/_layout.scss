@@ -1,10 +1,11 @@
 //Universal Rules
 * {
     box-sizing: border-box;
+   
 }
 
 body {
-    display: flex;
+    display: flex;;
 }
 
 //Navbar
@@ -15,17 +16,14 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     
-    
-
     h2 {
         align-self: flex-start;
         justify-content: center;
         margin-left: 1.1rem;
         margin-top: 1.06rem;
     }
-
+    
     ul {
         display: flex;
         flex-direction: row;
@@ -36,7 +34,34 @@ nav {
         justify-content: space-around;
 
         margin-bottom: 1.98rem;
-        
-        
     }
 }
+
+//Main Content 
+.main-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.planetframes {
+    margin-top: 20.5rem;
+    margin-left: 20.9rem;
+
+    img{
+        width: 290px;
+        height: 290px;
+    }
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 393px;
+    height: 551px;
+    margin-left: 284px;
+    margin-top: 142px;
+    margin-right: 138px ;
+} 
