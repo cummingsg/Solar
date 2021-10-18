@@ -98,6 +98,8 @@ nav ul {
   flex-direction: row;
   justify-content: space-around;
   margin-top: 87px;
+  margin-right: 120px;
+  margin-left: 165px;
 }
 .fact-card-container .fcard {
   display: flex;
