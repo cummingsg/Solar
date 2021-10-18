@@ -3,72 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Planets fact site</title>
-</head>
-<body>
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Solar | Earth</title>
+ </head>
+ <body style="background-image: url('assets/background-stars.svg');">
+   <section class="main-container">
   <nav>
-    <h3>Solar</h3>
+    <h2>Solar</h2>
     <ul>
-      <li><a href="index.html">Mercury</a></li>
-      <li><a href="venus.html">Venus</a></li>
-      <li><a href="earth.html">Earth</a></li>
-      <li><a href="mars.html">Mars</a></li>
-      <li><a href="jupiter.html">Jupiter</a></li>
-      <li><a href="saturn.html">Saturn</a></li>
-      <li><a href="uranus.html">Uranus</a></li>
-      <li><a href="neptune.html">Neptune</a></li>
+      <li><a href="index.html"> <h4>Mercury</h4></a></li>
+      <li><a href="venus.html"> <h4>Venus</h4></a></li>
+      <li><a href="earth.html"> <h4>Earth</h4></a></li>
+      <li><a href="mars.html"> <h4>Mars</h4></a></li>
+      <li><a href="jupiter.html"> <h4>Jupiter</h4></a></li>
+      <li><a href="saturn.html"> <h4>Saturn</h4></a></li>
+      <li><a href="uranus.html"> <h4>Uranus</h4></a></li>
+      <li><a href="neptune.html"> <h4>Neptune</h4></a></li>
     </ul>
   </nav>
-  Neptune
-
-  <!-- Overview Content Start -->
-
-  Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar 
-  System, it is the fourth-largest planet by diameter, the third-most-massive planet, 
-  and the densest giant planet. It is 17 times the mass of Earth, more massive than 
-  its near-twin Uranus.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Neptune -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% 
-  to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. 
-  Increasing concentrations of methane, ammonia and water are found in the lower regions.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Neptune#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also 
-  present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in 
-  the red and infrared portion of the spectrum.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Neptune#Atmosphere -->
-
-  <!-- Surface Geology Content End -->
-
-  01 Overview
-  02 Internal Structure
-  03 Surface Geology
-
-  Rotation Time
-  16.08 Hours
-
-  Revolution Time
-  164.79 Years
-
-  Radius
-  24,622 KM
-
-  Average Temp.
-  -201°c
-</body>
+  
+  
+  <article class="main-content">
+    <div class="planetframes">
+      <img style="display: block; width: 450px !important; height: 450px !important;"  id="overview" src="/assets/planet-neptune.svg" alt="">
+      <img style="display: none; width: 450px !important; height: 450px !important;" id="internal" src="assets/planet-neptune-internal.svg" alt="">
+      <img style="display: none;"  id="surface" src="assets/geology-neptune.png" alt="">
+    </div>
+   <div class="content-card">
+    <h1>Neptune</h1>
+    
+    <p id="outline">Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar 
+      System, it is the fourth-largest planet by diameter, the third-most-massive planet, 
+      and the densest giant planet. It is 17 times the mass of Earth, more massive than 
+      its near-twin Uranus.</p>
+     
+     <!--This content will be revealed with a JS event tied to the buttons below it. Remove inline styles prior to styling-->
+     
+     <p id="interior" style="display: none;">Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% 
+      to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. 
+      Increasing concentrations of methane, ammonia and water are found in the lower regions.</p>
+ 
+     <!--This content will be revealed with a JS event tied to the buttons below it. Remove inline styles prior to styling-->
+ 
+     <p id="geology" style="display: none;">Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also 
+      present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in 
+      the red and infrared portion of the spectrum.</p>
+ 
+     <p><a href="https://en.wikipedia.org/wiki/Neptune">Source: Wikipedia</a></p>
+     <button type="button" autofocus value="button" id="one"><h3> <span>01  </span>Overview</h3></button>
+     <button type="button" value="button" id="two"> <h3> <span>02  </span>Internal Structure</h3></button>
+     <button type="button" value="button" id="three"> <h3> <span>03  </span>Surface Geology</h3></button>
+     </div>
+  </article>
+ 
+ 
+  <div class="fact-card-container">
+    <div class="fcard">
+     <p>Rotation Time</p> 
+     <h2>16.08 Hours</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Revolution Time</p> 
+     <h2>164.79 Years</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Radius</p> 
+     <h2>24,622 KM</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Average Temp</p> 
+     <h2>-201°c</h2>
+    </div>
+  </div>
+   
+   </section>
+   <script src="cross-section.js"></script>
+ </body>
 </html>
+
+Neptune
+
+<!-- Overview Content Start -->
+
+
+
+Source : Wikipedia <!-- URL:  -->
+
+<!-- Overview Content End -->
+
+<!-- Internal Structure Content Start -->
+
+
+
+Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Neptune#Internal_structure -->
+
+<!-- Internal Structure Content End -->
+
+<!-- Surface Geology Content Start -->
+
+
+
+Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Neptune#Atmosphere -->
+
+<!-- Surface Geology Content End -->
+
+01 Overview
+02 Internal Structure
+03 Surface Geology
+
+Rotation Time
+
+
+Revolution Time
+164.79 Years
+
+Radius
+24,622 KM
+
+Average Temp.
