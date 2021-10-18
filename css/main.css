@@ -23,6 +23,32 @@ img {
   height: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  height: 5.3rem;
+  flex-direction: row;
+  align-items: center;
+}
+nav h2 {
+  align-self: flex-start;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  height: 1.5rem;
+  width: 41.5rem;
+  justify-content: space-around;
+}
+
 h1 {
   font-family: "Antonio", serif;
   font-weight: 500;
@@ -83,8 +109,12 @@ button {
   background: none;
 }
 
+button:focus {
+  background-color: #419EBB;
+}
+
 button:hover {
-  background-color: #2D68F0;
+  background-color: #38384F;
 }
 
 /*# sourceMappingURL=main.css.map */

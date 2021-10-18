@@ -1,0 +1,31 @@
+//Universal Rules
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+//Navbar
+
+nav {
+    display: flex;
+    height: 5.3rem;
+    flex-direction: row;
+    align-items: center;
+
+    h2 {
+        align-self: flex-start;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        height: 1.5rem;
+        width: 41.5rem;
+        justify-content: space-around;
+        
+    }
+}
