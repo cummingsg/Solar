@@ -3,58 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Planets fact site</title>
-</head>
-<body>
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Solar | Uranus</title>
+ </head>
+ <body style="background-image: url('assets/background-stars.svg');">
+   <section class="main-container">
   <nav>
-    <h3>Solar</h3>
+    <h2>Solar</h2>
     <ul>
-      <li><a href="index.html">Mercury</a></li>
-      <li><a href="venus.html">Venus</a></li>
-      <li><a href="earth.html">Earth</a></li>
-      <li><a href="mars.html">Mars</a></li>
-      <li><a href="jupiter.html">Jupiter</a></li>
-      <li><a href="saturn.html">Saturn</a></li>
-      <li><a href="uranus.html">Uranus</a></li>
-      <li><a href="neptune.html">Neptune</a></li>
+      <li><a href="index.html"> <h4>Mercury</h4></a></li>
+      <li><a href="venus.html"> <h4>Venus</h4></a></li>
+      <li><a href="earth.html"> <h4>Earth</h4></a></li>
+      <li><a href="mars.html"> <h4>Mars</h4></a></li>
+      <li><a href="jupiter.html"> <h4>Jupiter</h4></a></li>
+      <li><a href="saturn.html"> <h4>Saturn</h4></a></li>
+      <li><a href="uranus.html"> <h4>Uranus</h4></a></li>
+      <li><a href="neptune.html"> <h4>Neptune</h4></a></li>
     </ul>
   </nav>
-  Uranus
+  
+  
+  <article class="main-content">
+    <div class="planetframes">
+      <img style="display: block; width: 450px !important; height: 450px !important;"  id="overview" src="/assets/planet-uranus.svg" alt="">
+      <img style="display: none; width: 450px !important; height: 450px !important;" id="internal" src="assets/planet-uranus-internal.svg" alt="">
+      <img style="display: none;"  id="surface" src="assets/geology-uranus.png" alt="">
+    </div>
+   <div class="content-card">
+    <h1>Uranus</h1>
+    
+    <p id="outline"> Uranus is the seventh planet from the Sun. Its name is a reference to the 
+      Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather 
+      of Ares. It has the third-largest planetary radius and fourth-largest planetary 
+      mass in the Solar System.</p>
+     
+     <!--This content will be revealed with a JS event tied to the buttons below it. Remove inline styles prior to styling-->
+     
+     <p id="interior" style="display: none;">The standard model of Uranus's structure is that it consists of three layers: a 
+      rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and 
+      an outer gaseous hydrogen/helium envelope. The core is relatively small, with a 
+      mass of only 0.55 Earth masses.</p>
+ 
+     <!--This content will be revealed with a JS event tied to the buttons below it. Remove inline styles prior to styling-->
+ 
+     <p id="geology" style="display: none;">The composition of Uranus's atmosphere is different from its bulk, consisting mainly 
+      of molecular hydrogen and helium. The helium molar fraction, i.e. the number of 
+      helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.</p>
+ 
+     <p><a href="https://en.wikipedia.org/wiki/Uranus">Source: Wikipedia</a></p>
+     <button type="button" autofocus value="button" id="one"><h3> <span>01  </span>Overview</h3></button>
+     <button type="button" value="button" id="two"> <h3> <span>02  </span>Internal Structure</h3></button>
+     <button type="button" value="button" id="three"> <h3> <span>03  </span>Surface Geology</h3></button>
+     </div>
+  </article>
+ 
+ 
+  <div class="fact-card-container">
+    <div class="fcard">
+     <p>Rotation Time</p> 
+     <h2>17.2 Hours</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Revolution Time</p> 
+     <h2>84 Years</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Radius</p> 
+     <h2>25,362 KM</h2>
+    </div>
+ 
+    <div class="fcard">
+     <p>Average Temp</p> 
+     <h2>-195°c</h2>
+    </div>
+  </div>
+   
+   </section>
+   <script src="cross-section.js"></script>
+ </body>
+</html>
 
-  <!-- Overview Content Start -->
 
-  Uranus is the seventh planet from the Sun. Its name is a reference to the 
-  Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather 
-  of Ares. It has the third-largest planetary radius and fourth-largest planetary 
-  mass in the Solar System.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus -->
-
-  <!-- Overview Content End -->
-
-  <!-- Internal Structure Content Start -->
-
-  The standard model of Uranus's structure is that it consists of three layers: a 
-  rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and 
-  an outer gaseous hydrogen/helium envelope. The core is relatively small, with a 
-  mass of only 0.55 Earth masses.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus#Internal_structure -->
-
-  <!-- Internal Structure Content End -->
-
-  <!-- Surface Geology Content Start -->
-
-  The composition of Uranus's atmosphere is different from its bulk, consisting mainly 
-  of molecular hydrogen and helium. The helium molar fraction, i.e. the number of 
-  helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.
-
-  Source : Wikipedia <!-- URL: https://en.wikipedia.org/wiki/Uranus#Atmosphere -->
-
-  <!-- Surface Geology Content End -->
 
   01 Overview
   02 Internal Structure
@@ -67,9 +98,7 @@
   84 Years
 
   Radius
-  25,362 KM
+  
 
   Average Temp.
-  -195°c
-</body>
-</html>
+  
