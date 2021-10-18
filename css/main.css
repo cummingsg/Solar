@@ -57,6 +57,10 @@ nav ul {
   margin-bottom: 1.98rem;
 }
 
+.main-container {
+  width: 100%;
+}
+
 .main-content {
   display: flex;
   flex-direction: row;
@@ -87,6 +91,21 @@ nav ul {
   margin-left: 284px;
   margin-top: 142px;
   margin-right: 138px;
+}
+
+.fact-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 87px;
+}
+.fact-card-container .fcard {
+  display: flex;
+  flex-direction: column;
+  height: 128px;
+  width: 255px;
+  justify-content: center;
+  text-align: center;
 }
 
 h1 {
@@ -135,6 +154,10 @@ body {
 
 nav {
   border-bottom: 0.5px solid #838391;
+}
+
+.fcard {
+  border: 3px solid #38384F;
 }
 
 h1, h2, h3 {

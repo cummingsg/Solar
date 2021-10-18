@@ -40,7 +40,10 @@ nav {
     }
 }
 
-//Main Content 
+//Main Content
+.main-container {
+    width: 100%;
+}
 .main-content {
     display: flex;
     flex-direction: row;
@@ -77,3 +80,19 @@ nav {
     margin-top: 142px;
     margin-right: 138px ;
 } 
+
+.fact-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 87px;
+
+    .fcard {
+        display: flex;
+        flex-direction: column;
+        height: 128px;
+        width: 255px;
+        justify-content: center;
+        text-align: center;
+    }
+}
