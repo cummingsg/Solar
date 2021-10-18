@@ -62,3 +62,12 @@ button:hover {
     background-color: $dark-grey;
 }
 
+//Overview button
+
+#one {
+    background-color: $light-blue;
+}
+
+#one:focus {
+    background: none;
+}
