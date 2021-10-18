@@ -21,15 +21,15 @@ function toggleOverview() {
     
     let displaySetting = overview.style.display;
     if (displaySetting == 'block') {
-      overview.style.display = 'none'
-      outline.style.display = 'none'
+      overview.style.display = 'block'
+      outline.style.display = 'block'
     }
     else {
       overview.style.display = 'block';
       internal.style.display = 'none';
       surface.style.display = 'none';
 
-      outline.style.display = 'block';
+      outline.style.display= 'block';
       interior.style.display = 'none';
       geology.style.display = 'none';
     }
@@ -39,8 +39,8 @@ function toggleOverview() {
     
     let displaySetting = internal.style.display;
     if (displaySetting == 'block') {
-      internal.style.display = 'none';
-      interior.style.display = 'none'
+      internal.style.display = 'block';
+      interior.style.display = 'block'
     }
     else {
 

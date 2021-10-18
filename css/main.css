@@ -162,11 +162,15 @@ nav {
   border: 3px solid #38384F;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #ffffffff;
 }
 
-p, li, button {
+p,
+li,
+button {
   color: #838391;
 }
 
@@ -187,17 +191,12 @@ button {
 button:focus {
   background-color: #419EBB;
 }
+button:focus #one {
+  background: none;
+}
 
 button:hover {
   background-color: #38384F;
-}
-
-#one {
-  background-color: #419EBB;
-}
-
-#one:focus {
-  background: none;
 }
 
 /*# sourceMappingURL=main.css.map */

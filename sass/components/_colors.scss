@@ -28,19 +28,23 @@ nav {
     border: 3px solid $dark-grey;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: $white;
 }
 
-p, li, button {
+p,
+li,
+button {
     color: $light-grey;
 }
 
 p {
-  a {
-      color: $dark-grey;
-      text-decoration: none;
-  }
+    a {
+        color: $dark-grey;
+        text-decoration: none;
+    }
 }
 
 a {
@@ -56,6 +60,10 @@ button {
 
 button:focus {
     background-color: $light-blue;
+
+    #one {
+        background: none;
+    }
 }
 
 button:hover {
@@ -63,11 +71,3 @@ button:hover {
 }
 
 //Overview button
-
-#one {
-    background-color: $light-blue;
-}
-
-#one:focus {
-    background: none;
-}
