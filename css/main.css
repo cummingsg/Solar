@@ -35,18 +35,24 @@ nav {
   display: flex;
   height: 5.3rem;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 nav h2 {
   align-self: flex-start;
+  justify-content: center;
+  margin-left: 1.1rem;
+  margin-top: 1.06rem;
 }
 nav ul {
   display: flex;
   flex-direction: row;
   align-self: flex-end;
+  align-items: center;
   height: 1.5rem;
   width: 41.5rem;
   justify-content: space-around;
+  margin-bottom: 1.98rem;
 }
 
 h1 {
@@ -93,6 +99,10 @@ body {
   border-color: #38384F;
 }
 
+nav {
+  border-bottom: 0.5px solid #838391;
+}
+
 h1, h2, h3 {
   color: #ffffffff;
 }
@@ -103,6 +113,12 @@ p, li, button {
 
 p a {
   color: #38384F;
+  text-decoration: none;
+}
+
+a {
+  color: #ffffffff;
+  text-decoration: none;
 }
 
 button {

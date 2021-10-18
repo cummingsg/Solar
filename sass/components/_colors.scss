@@ -20,6 +20,10 @@ body {
     //background image set in HTML inline
 }
 
+nav {
+    border-bottom: 0.5px solid $light-grey;
+}
+
 h1, h2, h3 {
     color: $white;
 }
@@ -31,7 +35,13 @@ p, li, button {
 p {
   a {
       color: $dark-grey;
+      text-decoration: none;
   }
+}
+
+a {
+    color: $white;
+    text-decoration: none;
 }
 
 //basic button colors

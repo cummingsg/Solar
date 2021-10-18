@@ -13,19 +13,30 @@ nav {
     display: flex;
     height: 5.3rem;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
+    
+    
 
     h2 {
         align-self: flex-start;
+        justify-content: center;
+        margin-left: 1.1rem;
+        margin-top: 1.06rem;
     }
 
     ul {
         display: flex;
         flex-direction: row;
         align-self: flex-end;
+        align-items: center;
         height: 1.5rem;
         width: 41.5rem;
         justify-content: space-around;
+
+        margin-bottom: 1.98rem;
+        
         
     }
 }
